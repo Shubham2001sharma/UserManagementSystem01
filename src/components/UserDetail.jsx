@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
-import "./UserDetail.css"
+import "./Home.css"
 
 const UserDetail = () => {
   const { id } = useParams();
