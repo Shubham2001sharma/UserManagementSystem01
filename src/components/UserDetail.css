@@ -1,0 +1,64 @@
+.container {
+    max-width: 600px; /* Set a maximum width for the detail view */
+    margin: 40px auto; /* Center the container */
+    padding: 30px; /* Add padding for spacing */
+    border: 1px solid #e0e0e0; /* Light border for the container */
+    border-radius: 10px; /* More pronounced rounded corners */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Deeper shadow for depth */
+    background-color: #f9f9f9; /* Light gray background */
+}
+
+h1 {
+    font-size: 2.5em; /* Increased font size for the name */
+    color: #333; /* Dark color for text */
+    margin-bottom: 15px; /* Space below the title */
+    font-weight: 600; /* Bold font weight */
+}
+
+p {
+    font-size: 1.1em; /* Slightly larger font for details */
+    color: #555; /* Medium gray color for text */
+    margin: 10px 0; /* Space between paragraphs */
+}
+
+strong {
+    color: #007bff; /* Highlighted text color for important info */
+}
+
+button {
+    margin-top: 20px; /* Space above the button */
+    padding: 12px 20px; /* Larger padding for button */
+    background-color: #007bff; /* Bootstrap primary color */
+    color: #fff; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Slightly rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+    font-size: 1em; /* Increase button font size */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+.error-message {
+    color: #d9534f; /* Bootstrap danger color for error messages */
+    font-weight: bold; /* Bold text for emphasis */
+    margin: 20px 0; /* Margin for spacing */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px; /* Reduce padding on smaller screens */
+    }
+
+    h1 {
+        font-size: 2em; /* Adjust heading size */
+    }
+
+    button {
+        width: 100%; /* Full-width buttons on small screens */
+    }
+}
